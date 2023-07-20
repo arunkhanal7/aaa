@@ -31,6 +31,46 @@
 //     console.log("button is clicked")
 // }
 
+// add event listener and remove event listener
+
+// let btn = document.getElementsByClassName("btn")[0];
+
+// btn.addEventListener('click',function(e){
+//     alert("hello world 1")
+// })
+// btn.addEventListener('click',function(e){
+//     alert("hello world 2");
+// })
+
+// to use remove event listener we need to declare function on other variable by this only we can use this 
+
+// let btn = document.getElementsByClassName("btn")[0];
+
+// let a = prompt("enter the number")
+// let x =()=>{
+//     alert("hello world 1")
+// }
+// let y=()=>{
+//     alert("hello world 2")
+// }
+//  btn.addEventListener('click',x);
+//  btn.addEventListener('click',y);
+
+//  if (a=='1') {
+//     btn.removeEventListener('click',y)
+    
+//  }
+
+//event object like e , e.target
+
+
+// let btn = document.getElementsByClassName("btn")[0];
+// let x =(e)=>{
+//         alert("hello world 1")
+//         console.log(e)
+//         console.log(e.target)
+//     } 
+//     btn.addEventListener('click',x);
 
 
 
