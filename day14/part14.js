@@ -140,6 +140,34 @@ Cookies are saved in name-value pairs */
 
 
 
+//session storage : let you store key value pairs n a browser for only one session
+
+//save data to session storage
+// sessionStorage.setItem("name","arun");
+
+//read data from session storage 
+// let a =sessionStorage.getItem("name");
+// console.log(a);
+
+// sessionStorage.removeItem("name") // to  remove data from session storage
+
+// sessionStorage.clear(); // to clear all data
+
+
+//storage event : when the data gets updated in localstorage or session storage storage event triggers
+
+
+// window.onstorage=(e)=>{
+//     alert('changed')
+//     console.log(e);
+
+// }
+
+//when we update to the same storage from other document we can hear 
+
+
+
+
 
 
 
